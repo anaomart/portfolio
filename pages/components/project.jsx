@@ -22,6 +22,7 @@ export function Project({ img, gif }) {
         className="rounded-lg object-fill  "
         layout="responsive"
         src={photo}
+        alt={"project"}
       />
     </div>
   );
