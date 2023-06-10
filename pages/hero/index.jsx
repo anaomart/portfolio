@@ -8,7 +8,7 @@ import {
   AiFillTwitterCircle,
   AiFillYoutube,
 } from "react-icons/ai";
-export function Hero({ img }) {
+export default function Hero({ img }) {
   return (
     <div className="text-center p-10 py-10">
       <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">

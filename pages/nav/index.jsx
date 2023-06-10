@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-export function Nav({ setDarkMode, darkMode }) {
+export default function Nav({ setDarkMode, darkMode }) {
   return (
     <nav className="py-10 mb-12 flex justify-between dark:text-white">
       <h1 className="font-burtons text-xl">Omar Ashraf</h1>

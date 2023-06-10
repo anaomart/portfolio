@@ -16,10 +16,10 @@ import jsTemplate from "../public/jsTemplate.png";
 import youtubePhoto from "../public/YoutubePhoto.png";
 import GptPhoto from "../public/GptPhoto.png";
 
-import { Nav } from "./components/nav";
-import { Hero } from "./components/hero";
-import { Services } from "./components/services";
-import { Projects } from "./components/projects";
+import Hero from "./hero";
+import Services from "./services";
+import Projects from "./projects";
+import Nav from "./nav";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 

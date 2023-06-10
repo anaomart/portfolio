@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-export function Services({ design, code, consulting }) {
+export default function Services({ design, code, consulting }) {
   return (
     <section>
       <div>

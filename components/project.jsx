@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-export function Project({ img, gif }) {
+export default function Project({ img, gif }) {
   const [photo, setPhoto] = useState(img);
 
   return (
@@ -10,7 +10,7 @@ export function Project({ img, gif }) {
       onMouseEnter={() => {
         setTimeout(() => {
           setPhoto(gif);
-        }, 200);
+        }, 400);
       }}
       onMouseLeave={() =>
         setTimeout(() => {

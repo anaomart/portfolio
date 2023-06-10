@@ -1,10 +1,10 @@
-import { Project } from "./project";
 import Image from "next/image";
 import React, { useState } from "react";
 import realEstateVideo from "../../public/Real-estate-video.gif";
 import Pixld from "../../public/PilxdVideo.gif";
+import Project from "../../components/project";
 
-export function Projects({ web1, web2, web3, web4, web5, web6 }) {
+export default function Projects({ web1, web2, web3, web4, web5, web6 }) {
   return (
     <section className="py-10">
       <div>
@@ -12,7 +12,7 @@ export function Projects({ web1, web2, web3, web4, web5, web6 }) {
           Portofolio
         </h3>
       </div>
-      <div className="flex flex-col gap-10 py-10 ">
+      <div className="flex flex-col gap-10 py-10  ">
         <Project img={web1} gif={realEstateVideo} />
         <Project img={web2} gif={Pixld} />
         <Project img={web3} gif={Pixld} />
