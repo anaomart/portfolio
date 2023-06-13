@@ -9,9 +9,9 @@ import sara7aClone from "../../public/Sara7a-clone.png";
 import SpeedTyping from "../../public/Speed-Typing.png";
 import simpleSystem from "../../public/simpleSystem.png";
 import WeatherApp from "../../public/Weather-App.png";
-import Template_1 from "../../public/Template_1.png";
-import Template_2 from "../../public/Template_2.png";
-import Template_3 from "../../public/Template_3.png";
+import template1 from "../../public/Template_1.png";
+import template2 from "../../public/Template_2.png";
+import template3 from "../../public/Template_3.png";
 import toDoApp from "../../public/To-do-app-2.png";
 import LandingPage_1 from "../../public/LandingPage_1.png";
 import TwitterClon from "../../public/TwitterClon.png";
@@ -93,20 +93,20 @@ const projects = [
     state: "visible",
   },
   {
-    name: "Template_1",
-    img: Template_1,
+    name: "template1",
+    img: template1,
     link: "https://anaomart.github.io/template-2/#",
     state: "visible",
   },
   {
-    name: "Template_2",
-    img: Template_2,
+    name: "template2",
+    img: template2,
     link: "https://anaomart.github.io/Template.2.1/#",
     state: "visible",
   },
   {
-    name: "Template_3",
-    img: Template_3,
+    name: "template3",
+    img: template3,
     link: "https://anaomart.github.io/Template_1/",
     state: "visible",
   },
