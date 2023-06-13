@@ -14,7 +14,9 @@ export default function Nav({ setDarkMode, darkMode }) {
         <li>
           <a
             className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-            href="#"
+            href="https://flowcv.com/resume/9s4l96ge7r"
+            target="_blank"
+            rel="noreferrer"
           >
             Resume
           </a>
