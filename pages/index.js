@@ -9,17 +9,12 @@ import img from "../public/undraw_digital_nomad_re_w8uy.svg";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
-import Image from "next/image";
-import RealEstate from "../public/realEstaetPhoto1 - Copy.png";
-import pixldPhoto from "../public/PixldPhoto.png";
-import jsTemplate from "../public/jsTemplate.png";
-import youtubePhoto from "../public/YoutubePhoto.png";
-import GptPhoto from "../public/GptPhoto.png";
 
 import Hero from "./hero";
 import Services from "./services";
 import Projects from "./projects";
 import Nav from "./nav";
+import Footer from "./footer";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -41,14 +36,9 @@ export default function Home() {
           <Hero img={img} />
         </section>
         <Services design={design} code={code} consulting={consulting} />
-        <Projects
-          web1={RealEstate}
-          web2={pixldPhoto}
-          web3={jsTemplate}
-          web4={youtubePhoto}
-          web5={GptPhoto}
-        />
+        <Projects />
       </main>
+      <Footer />
     </div>
   );
 }

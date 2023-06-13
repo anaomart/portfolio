@@ -1,29 +1,15 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-export default function Project({ img, gif }) {
-  const [photo, setPhoto] = useState(img);
-
+export default function Project({ img, link, name }) {
   return (
-    <div
-      className="     "
-      onMouseEnter={() => {
-        setTimeout(() => {
-          setPhoto(gif);
-        }, 400);
-      }}
-      onMouseLeave={() =>
-        setTimeout(() => {
-          setPhoto(img);
-        }, 400)
-      }
-    >
+    <a href={link} target="_blank" rel="noreferrer">
       <Image
-        className="rounded-lg object-fill  "
+        className="rounded-lg object-cover  hover:scale-95 transition flex-1 h-[200px] bg-red-400  "
         layout="responsive"
-        src={photo}
-        alt={"project"}
+        src={img}
+        alt={name}
       />
-    </div>
+    </a>
   );
 }
