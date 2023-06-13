@@ -92,12 +92,12 @@ const projects = [
     link: "https://anaomart.github.io/To-Do-App-2/",
     state: "visible",
   },
-  // {
-  //   name: "Template_1",
-  //   img: Template_1,
-  //   link: "https://anaomart.github.io/template-2/#",
-  //   state: "visible",
-  // },
+  {
+    name: "Template_1",
+    img: Template_1,
+    link: "https://anaomart.github.io/template-2/#",
+    state: "visible",
+  },
   {
     name: "Template_2",
     img: Template_2,
