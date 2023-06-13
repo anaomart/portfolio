@@ -9,7 +9,7 @@ import sara7aClone from "../../public/Sara7a-clone.png";
 import SpeedTyping from "../../public/Speed-Typing.png";
 import simpleSystem from "../../public/simpleSystem.png";
 import WeatherApp from "../../public/Weather-App.png";
-import Template_1 from "../../public/Template1.png";
+// import Template_1 from "../../public/Template1.png";
 import Template_2 from "../../public/Template2.png";
 import Template_3 from "../../public/Template3.png";
 import toDoApp from "../../public/To-do-app-2.png";
